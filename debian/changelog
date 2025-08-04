@@ -1,9 +1,9 @@
-gasket-dkms (1.0-18.3) noble; urgency=medium
+gasket-dkms (1.0-18.4) noble; urgency=medium
  
   * Update ffor Kernel 6.13+
     - Remove deprecated call REMAKE_INITRD.
     - Use literal for MODULE_IMPORT_NS.
-    - Use "noop_llseek" instead of deprecated "no_llseek".  
+    - Remove deprecated "no_llseek".  
 
  -- Nicola Ferralis <feranick@hotmail.com>  Mon, 04 Aug 2025 14:41:16 -0400
 
