@@ -1,6 +1,6 @@
 Source: gasket-dkms
 Maintainer: Coral <coral-support@google.com>
-Build-Depends: debhelper (>= 9), dkms
+Build-Depends: debhelper (>= 9), dkms, dh-dkms
 Homepage: https://coral.withgoogle.com/
 
 Package: gasket-dkms
