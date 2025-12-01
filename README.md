@@ -19,13 +19,13 @@ From the top level directory, execute:
 sudo apt remove gasket-dkms
 
 # Install build dependencies
-sudo apt install git devscripts dkms dh-dkms proxmox-default-headers
+sudo apt install git build-essential devscripts dkms dh-dkms proxmox-default-headers
 
 # Clone this repo
 git clone https://github.com/curtistinkers/gasket-driver
 
 # Build the .deb file
-debuild -us -uc -tc -b
+cd gasket-driver && debuild -us -uc -tc -b
 ```
 
-Install the resulting package using `dpkg -i`
+Install the resulting package using `dpkg -i` and reboot.
