@@ -10,4 +10,4 @@ Section: kernel
 Depends: dkms (>= 1.95), linux-headers-686-pae | linux-headers-amd64 | linux-headers-generic | linux-headers, ${misc:Depends}
 Description: DKMS source for the gasket driver
  Gasket (Google ASIC Software, Kernel Extensions, and Tools) provides 
- support for Google ASICs, specificially the Coral EdgeTPU.
+ support for Google ASICs, specifically the Coral EdgeTPU.
